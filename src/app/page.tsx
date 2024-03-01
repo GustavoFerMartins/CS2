@@ -1,17 +1,9 @@
-import Image from "next/image";
+import { Background } from "./components/background";
 
 export default function Home() {
   return (
     <main>
-      <div>
-        <Image
-          src=""
-          alt=""
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+       <Background/>
     </main>
   );
 }
