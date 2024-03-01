@@ -1,2 +1,1 @@
-# MyPortfolio
- Personal information about me
+Personal information about me
