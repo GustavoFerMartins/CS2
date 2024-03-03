@@ -1,4 +1,4 @@
-import "../styles/playerprofile.css";
+import "../styles/assertive.css";
 
 export function Assertive() {
     return (

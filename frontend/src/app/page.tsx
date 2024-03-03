@@ -8,10 +8,8 @@ export default function Home() {
         <main>
             <Background/>
             <Assertive/>
-            
             <Header/>
-            <PlayerProfile/>
-            
+            <PlayerProfile/>           
         </main>
     );
 }

@@ -1,5 +1,6 @@
 import "../styles/playerprofile.css";
 
+
 export function PlayerProfile() {
   return (
 
@@ -50,3 +51,5 @@ export function PlayerProfile() {
 
   );
 }
+
+
