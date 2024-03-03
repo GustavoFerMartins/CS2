@@ -15,7 +15,7 @@ export function Overview() {
                                         <h1 className="font-tam1 text-neutral-10">Kills</h1>
                                     </div>
                                     <div className="value-container font-tam2 text-neutral-10">
-                                        <p>110</p>
+                                        <p>362</p>
                                     </div>
                                 </div>
                                 <div className="custom-div bg-canvas-95">
@@ -23,7 +23,15 @@ export function Overview() {
                                         <h1 className="font-tam1 text-neutral-10">Deaths</h1>
                                     </div>
                                     <div className="value-container font-tam2 text-neutral-10">
-                                        <p>99</p>
+                                        <p>334</p>
+                                    </div>
+                                </div>
+                                <div className="custom-div bg-canvas-95">
+                                    <div className="title-container">
+                                        <h1 className="font-tam1 text-neutral-10">K/D Ratio</h1>
+                                    </div>
+                                    <div className="value-container font-tam2 text-neutral-10">
+                                        <p>1.08</p>
                                     </div>
                                 </div>
                                 <div className="custom-div bg-canvas-95">
@@ -31,7 +39,7 @@ export function Overview() {
                                         <h1 className="font-tam1 text-neutral-10">ADR</h1>
                                     </div>
                                     <div className="value-container font-tam2 text-neutral-10">
-                                        <p>67</p>
+                                        <p>65.81</p>
                                     </div>
                                 </div>
                                 <div className="custom-div bg-canvas-95">
@@ -39,7 +47,7 @@ export function Overview() {
                                         <h1 className="font-tam1 text-neutral-10">Headshot %</h1>
                                     </div>
                                     <div className="value-container font-tam2 text-neutral-10">
-                                        <p>28</p>
+                                        <p>24%</p>
                                     </div>
                                 </div>
                             </div>
