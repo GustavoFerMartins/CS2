@@ -1,0 +1,83 @@
+.main-container {
+    width: 100%;
+    max-width: 1440px; /* Ajuste conforme necessário */
+    overflow-x: auto;
+    margin: auto;
+    padding: 0 30px; /* Ajustado para responsividade */
+}
+
+.custom-div {
+    width: 100%;
+    max-width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo em coluna */
+    justify-content: flex-start; /* Alinha ao topo */
+    align-items: center; /* Centraliza horizontalmente */
+    border-radius: 20px;
+    padding: 20px; /* Mantém o padding para evitar que o conteúdo toque as bordas */
+}
+
+.title-container {
+    align-self: flex-start; /* Alinha o título à esquerda */
+}
+
+.value-container {
+    width: 100%; /* Usa toda a largura disponível */
+    display: flex;
+    justify-content: center; /* Centraliza o valor horizontalmente */
+    align-items: center; /* Centraliza o valor verticalmente */
+    flex-grow: 1; /* Permite que o container do valor cresça para ocupar o espaço disponível */
+}
+
+
+
+/* Ajustes para responsividade */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 0 15px;
+    }
+}
+
+/* Estilos adicionais para scrollbar, se necessário */
+.scrollbar-thin {
+    scrollbar-width: thin;
+}
+
+.scrollbar-track-canvas-95 {
+    scrollbar-color: canvas-80 canvas-95;
+}
+
+
+.bg-canvas-95 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(42 24 37/var(--tw-bg-opacity))
+}
+
+.pt-1{
+    padding-top: -50px;
+}
+
+.font-tam1 {
+    font-family: RadionA, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 0;
+    font-size: 1.5rem;
+    line-height: .917
+}
+.font-tam2 {
+    font-family: RadionA, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 0;
+    font-size: 3rem;
+    line-height: .917
+}
+
+.text-neutral-10 {
+    --tw-text-opacity: 1;
+    color: rgb(233 231 232/var(--tw-text-opacity))
+}
