@@ -154,7 +154,6 @@ body {
 
 
 
-
 @media(min-width: 376px) {
     .sm\:mx-4 {
         margin-left: 1rem;
@@ -179,4 +178,95 @@ body {
         padding-top: 4rem;
         padding-bottom: 4rem
     }
+
+}
+
+@media(min-width: 768px) {
+
+    .md\:mx-\[30px\] {
+        margin-left: 30px;
+        margin-right: 30px
+    }
+
+
+    .md\:block {
+        display: block
+    }
+
+    .md\:flex {
+        display: flex
+    }
+
+    .md\:hidden {
+        display: none
+    }
+
+    .md\:size-48 {
+        width: 12rem;
+        height: 12rem
+    }
+
+
+    .md\:h-72 {
+        height: 18rem
+    }
+
+
+    .md\:h-80 {
+        height: 20rem
+    }
+
+
+    .md\:w-96 {
+        width: 24rem
+    }
+
+
+    .md\:gap-6 {
+        gap: 1.5rem
+    }
+
+
+    .md\:font-style-desktop-h1 {
+        font-family: RadionA, sans-serif;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0;
+        letter-spacing: 0;
+        font-size: 4.5rem;
+        line-height: .917
+    }
+
+
+    .md\:font-style-subheading-2 {
+        font-family: TT Norms Pro, sans-serif;
+        letter-spacing: 0;
+        font-size: 1.625rem;
+        line-height: 1.625rem;
+        font-weight: 500
+    }
+
+}
+
+@media(min-width: 1024px) {
+
+    .sd\:mt-\[60px\] {
+        margin-top: 60px
+    }
+
+
+}
+
+@media(min-width: 1280px) {
+
+    .lg\:mx-11 {
+        margin-left: 2.75rem;
+        margin-right: 2.75rem
+    }
+
+
+    .lg\:w-\[21\.5rem\] {
+        width: 21.5rem
+    }
+
 }
