@@ -1,10 +1,10 @@
-package com.cs2.steamcsgo;
+package com.cs2.csstats;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SteamCsGoApplicationTests {
+class CsstatsApplicationTests {
 
 	@Test
 	void contextLoads() {
