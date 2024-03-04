@@ -19,6 +19,7 @@
 }
 
 .title-container {
+    display: flex;
     align-self: flex-start; /* Alinha o título à esquerda */
 }
 
@@ -81,3 +82,6 @@
     --tw-text-opacity: 1;
     color: rgb(233 231 232/var(--tw-text-opacity))
 }
+
+
+

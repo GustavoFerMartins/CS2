@@ -2,10 +2,8 @@ import "../styles/overview.css"
 
 export function Overview() {
     return (
-        <div className="">
-
+        <div>
             <div className="relative z-0 w-full overflow-x-hidden pb-24">
-
                 <div className="flex justify-center">
                     <div className="main-container">
                         <div className="relative z-10 overflow-hidden pb-4">
@@ -51,8 +49,6 @@ export function Overview() {
                                     </div>
                                 </div>
                             </div>
-
-
                             <div className="flex h-56 w-full items-center gap-5 justify-center">
                                 <div className="custom-div bg-canvas-95">
                                     <div className="title-container">
