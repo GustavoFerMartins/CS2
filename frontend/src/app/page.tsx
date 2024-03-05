@@ -1,17 +1,14 @@
-import { Background } from "./components/background/background";
-import { Header } from "./components/header/header";
-import { PlayerProfile } from "./pages/player/playerprofile";
+import { Player } from "./pages/player/player";
 import { Assertive } from "./components/assertive/assertive";
-import { Overview } from "./pages/player/overview";
+
 
 export default function Home() {
     return (
         <main>
-            <Background/>
+
             <Assertive/>
-            <Header/>
-            <PlayerProfile/>  
-            <Overview/>         
+            <Player/>
+            
         </main>
     );
 }
