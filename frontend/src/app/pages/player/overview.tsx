@@ -1,4 +1,4 @@
-import "../styles/overview.css"
+import "./styles/overview.css"
 
 export function Overview() {
     return (

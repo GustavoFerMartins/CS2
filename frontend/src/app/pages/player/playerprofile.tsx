@@ -1,4 +1,4 @@
-import "../styles/playerprofile.css";
+import "./styles/playerprofile.css";
 
 
 export function PlayerProfile() {

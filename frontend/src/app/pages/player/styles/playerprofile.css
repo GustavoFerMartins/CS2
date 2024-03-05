@@ -622,13 +622,13 @@ video {
 
 @font-face {
     font-family: "RadionA";
-    src: url(../../../fonts/RadionA.woff2);
+    src: url(../../../../../fonts/RadionA.woff2);
 
 }
 
 @font-face {
     font-family: "TT Norms Pro";
-    src: url(../../../fonts/TT-Norms-Pro-Medium.woff2);
+    src: url(../../../../../fonts/TT-Norms-Pro-Medium.woff2);
 
 }
 
