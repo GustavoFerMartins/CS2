@@ -397,18 +397,6 @@
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
-@font-face {
-    font-family: "RadionA";
-    src: url(../../../../../fonts/RadionA.woff2);
-
-}
-
-@font-face {
-    font-family: "TT Norms Pro";
-    src: url(../../../../../fonts/TT-Norms-Pro-Medium.woff2);
-
-}
-
 
 .font-style-desktop-h2 {
     font-family: RadionA, sans-serif;

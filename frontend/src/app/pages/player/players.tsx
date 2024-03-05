@@ -17,7 +17,7 @@ export function Players() {
                                 <img src="https://img-cdn.hltv.org/teamlogo/ywdn4tmAvXfllLeV2SkkvF.png?ixlib=java-2.1.0&w=200&s=4878ec4edb411cf0c348226b0798d14f" alt="Foto" className="team-foto" />
                             </div>
                             <div className="divis">
-                                <h2 className="text">Donkkkkkkkkkkkkkkkkkkkkkkk</h2>
+                                <h2 className="text">Donk</h2>
                                 <div>
                                     <p className="text">Spirit</p>
                                 </div>
