@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import "../styles/background.css";
+import "./background.css";
 
 export function Background() {
     return (

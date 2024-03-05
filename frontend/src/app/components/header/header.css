@@ -339,7 +339,7 @@ button,
 .logo {
     width: 6rem;
     height: 100%;
-    background: url(../../../public/logocs2.png) center center / contain no-repeat;
+    background: url(../../../../public/logocs2.png) center center / contain no-repeat;
 }
 
 .menulink {
