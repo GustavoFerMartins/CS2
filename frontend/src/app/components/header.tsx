@@ -9,14 +9,64 @@ export function Header() {
                         <div className="logo">
                         </div>
                     </div>
+
+                    <a href="https://github.com/GustavoFerMartins" target="_blank" rel="noopener noreferrer">
+                        <button className="menulink" type="button">
+                            <span className="namepage">home</span>
+                        </button>
+                        
+                    </a>
+                    <a href="https://github.com/GustavoFerMartins" target="_blank" rel="noopener noreferrer">
+                        <button className="menulink" type="button">
+                            <span className="namepage">news</span>
+                        </button>
+                    </a>
+
+                    <a href="https://github.com/GustavoFerMartins" target="_blank" rel="noopener noreferrer">
+                        <button className="menulink" type="button">
+                            <span className="namepage">results</span>
+                        </button>
+                    </a>
+                    <a href="https://github.com/GustavoFerMartins" target="_blank" rel="noopener noreferrer">
+                        <button className="menulink" type="button">
+                            <span className="namepage">players</span>
+                        </button>
+                    </a>
+                    
+                    <a href="https://github.com/GustavoFerMartins" target="_blank" rel="noopener noreferrer">
+                        <button className="menulink" type="button">
+                            <span className="namepage">teams</span>
+                        </button>
+                    </a>
+
+                    <a href="https://github.com/GustavoFerMartins" target="_blank" rel="noopener noreferrer">
+                        <button className="menulink" type="button">
+                            <span className="namepage">matches</span>
+                        </button>
+                    </a>
+
+                    <a href="https://github.com/GustavoFerMartins" target="_blank" rel="noopener noreferrer">
+                        <button className="menulink" type="button">
+                            <span className="namepage">rankings</span>
+                        </button>
+                    </a>
+                    
+                    
+                    
+                    
                 </div>
-                <a href="https://github.com/GustavoFerMartins" target="_blank" rel="noopener noreferrer">
-                    <button className="m-0 flex touch-manipulation select-none flex-col place-items-center justify-center rounded-small border border-solid transition-all duration-100 ease-in-out h-10 border-transparent text-[#121212] bg-yellow active:bg-[#FFFFB2] hover:bg-[#FFFE8B] hover:cursor-pointer px-7 py-3 sc-dZoequ klbgiK" type="button">
-                        <span className="text-inherit font-style-label-3">
-                            <span className="sc-cPiKLX ecWEMa">GitHub</span>
-                        </span>
-                    </button>
-                </a>
+
+
+                <div className="flex h-full">
+                    
+                    <a href="https://github.com/GustavoFerMartins" target="_blank" rel="noopener noreferrer">
+                        <button className="flex menulink px-7" type="button">
+                            <span className="text-inherit font-style-label-3">
+                                <span className="namepage">GitHub</span>
+                            </span>
+                        </button>
+                    </a>
+                </div>
             </div>
         </nav>
 
