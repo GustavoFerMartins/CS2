@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import media from 'styled-media-query'
 
 export const Wrapper = styled.main`
-  color: #fff;
+  color: #000;
   height: 100%;
   padding: 3rem;
   text-align: center;
@@ -11,22 +11,10 @@ export const Wrapper = styled.main`
   align-items: center;
   justify-content: center;
 `
-export const Background = styled.picture`
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-`;
 
-export const Img = styled.img`
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-`;
 
 export const Title = styled.h1`
+  margin-bottom: 5rem;
   font-family: "RadionA";
     font-size: 2.5rem;
   ${media.greaterThan('small')`

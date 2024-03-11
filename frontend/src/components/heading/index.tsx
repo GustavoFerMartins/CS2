@@ -1,27 +1,30 @@
-import React from 'react'
-import styled from 'styled-components'
-import * as S from './styles'
+import React, { useState } from 'react';
+import * as S from './styles';
 
-type Props = {
-  children: React.ReactNode
-}
+const Header: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-const Header: React.FC = () => (
-  <S.StyledHeader>
-    
-    <S.NavTexts>
-      <S.Logo src="./logocs2.png" alt="" />
+  return (
+    <S.StyledHeader>
+      <S.HeadBar>
+        <S.Logo src="./favicon.ico" alt="Logo" />
 
-      <S.Text href="#home">Home</S.Text>
-      <S.Text href="#home">Home</S.Text>
-      <S.Text href="#home">Home</S.Text>
-      <S.Text href="#home">Home</S.Text>
+        <S.NavTexts isOpen={isMenuOpen}>
+          <S.Text>Home</S.Text>
+          <S.Text>News</S.Text>
+          <S.Text>Players</S.Text>
+          <S.Text>Teams</S.Text>
+        </S.NavTexts>
 
-    </S.NavTexts>
-    <S.EndContent>
-      <S.Text href="#home">GitHub</S.Text>
-    </S.EndContent>
-  </S.StyledHeader>
-);
+        <S.Hamburger onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </S.Hamburger>
 
-export default Header
+      </S.HeadBar>
+    </S.StyledHeader>
+  );
+};
+
+export default Header;
