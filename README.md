@@ -1,3 +1,4 @@
+![Screenshot ](https://github.com/GustavoFerMartins/CS2/assets/60547697/3b1adb43-3dfc-440b-a8f2-d4693910c7d4)
 ![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png "United States")
 This project is inspired by the blast.tv website and focuses on analyzing and presenting my performance in CS2. By utilizing available data such as kills, deaths, and assists, the project provides insights into my gameplay performance.
 
