@@ -15,7 +15,7 @@ function ThreeScene() {
         if (!mount.current) return;
 
         renderer.current = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-        renderer.current.setSize(750, 750);
+        renderer.current.setSize(600, 600);
         renderer.current.setClearColor(0x000000, 0);
 
         mount.current.appendChild(renderer.current.domElement);

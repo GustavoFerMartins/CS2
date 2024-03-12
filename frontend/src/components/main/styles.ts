@@ -3,7 +3,7 @@ import media from "styled-media-query";
 
 export const Wrapper = styled.main`
     color: rgba(0, 0, 0);
-    height: 100%;
+    height: 80vh;
     padding: 3rem;
     text-align: center;
     display: flex;
