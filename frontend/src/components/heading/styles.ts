@@ -24,36 +24,32 @@ export const Logo = styled.img`
     padding: 0.3rem;
 `;
 
-export const NavTexts = styled.nav`
+interface Props {
+    isOpen: boolean;
+}
+
+export const NavTexts = styled.nav<Props>`
     display: flex;
     align-items: center;
     gap: 1.2rem;
 
-    ${media.lessThan("medium")`
-    display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
-    flex-direction: column;
-    position: absolute;
-    top: 4rem;
-    left: 0;
-    background-color: #fff;
-    padding: 1rem;
-    border-bottom: 1px solid #000;
-    width: 100%;
-  `}
+    ${(props) =>
+        media.lessThan("medium")`
+          display: ${props.isOpen ? "flex" : "none"};
+          flex-direction: column;
+          position: absolute;
+          top: 11vh;
+          left: 0;
+          background-color: #000;
+          padding: 1rem;
+          justify-content: center;
+          width: 100%;
+          height: 80vh;
+          z-index: 2;
+        `}
 `;
 
 export const Text = styled.a`
-    color: #000;
-    font-size: 0.75rem;
-    font-family: "TT-Norms";
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.22rem;
-    line-height: 1.16667;
-`;
-
-export const TextG = styled.a`
     color: #fff;
     font-size: 0.75rem;
     font-family: "TT-Norms";
@@ -62,6 +58,12 @@ export const TextG = styled.a`
     text-decoration: none;
     letter-spacing: 0.22rem;
     line-height: 1.16667;
+    ${media.greaterThan("small")`
+        color: #fff
+    `}
+    ${media.greaterThan("medium")`
+        color: #000
+    `}
 `;
 
 export const Hamburger = styled.div`

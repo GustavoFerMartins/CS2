@@ -12,7 +12,9 @@ const Header: React.FC = () => {
                 <S.HeadBar>
                     <S.Logo src="./favicon.ico" alt="Logo" />
                     <S.NavTexts isOpen={isMenuOpen}>
-                        <S.Text>Home</S.Text>
+                        <S.Text href="http://google.com" target="blank_">
+                            Home
+                        </S.Text>
                         <S.Text>News</S.Text>
                         <S.Text>Players</S.Text>
                         <S.Text>Teams</S.Text>

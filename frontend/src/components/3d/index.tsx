@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import * as THREE from "three";
-import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import { CanvasWrapper } from "./style";
+import { CanvasWrapper } from "./styles";
 
 function ThreeScene() {
     const mount = useRef<HTMLDivElement>(null);
@@ -14,8 +14,11 @@ function ThreeScene() {
     useEffect(() => {
         if (!mount.current) return;
 
+        const width = mount.current.clientWidth;
+        const height = mount.current.clientHeight;
+
         renderer.current = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-        renderer.current.setSize(600, 600);
+        renderer.current.setSize(width, height);
         renderer.current.setClearColor(0x000000, 0);
 
         mount.current.appendChild(renderer.current.domElement);
@@ -38,7 +41,7 @@ function ThreeScene() {
         directionalLight.position.set(5, 5, 5);
         scene.add(directionalLight);
 
-        camera.current = new THREE.PerspectiveCamera(75, 800 / 600, 0.1, 1000);
+        camera.current = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
         camera.current.position.z = 20;
         controls.current = new OrbitControls(camera.current, renderer.current.domElement);
 
@@ -51,9 +54,20 @@ function ThreeScene() {
 
         animate();
 
+        const handleResize = () => {
+            const width = mount.current!.clientWidth;
+            const height = mount.current!.clientHeight;
+            renderer.current!.setSize(width, height);
+            camera.current!.aspect = width / height;
+            camera.current!.updateProjectionMatrix();
+        };
+
+        window.addEventListener("resize", handleResize);
+
         return () => {
             scene.remove(...scene.children.filter((obj) => obj.type !== "AmbientLight"));
             renderer.current?.dispose();
+            window.removeEventListener("resize", handleResize);
         };
     }, []);
 

@@ -1,23 +1,22 @@
 import styled from "styled-components";
 import media from "styled-media-query";
 
-export const Wrapper = styled.main`
+export const Wrapper = styled.div`
     color: rgba(0, 0, 0);
-    height: 80vh;
-    padding: 3rem;
     text-align: center;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: fixed;
     user-select: none;
     cursor: default;
-    display: grid;
+    display: flex;
+    width: 100%;
+    max-height: 80vh;
+    height: 80vh;
+    margin: 0 auto;
 `;
 
 export const Title = styled.h1`
-    margin-bottom: 12rem;
     font-family: "RadionA";
     font-size: 2.5rem;
     ${media.greaterThan("small")`
