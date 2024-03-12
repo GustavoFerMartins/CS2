@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import media from 'styled-media-query'
 
 export const Wrapper = styled.footer`
@@ -13,7 +13,7 @@ export const Wrapper = styled.footer`
   margin: 0 auto;
   border-top: 1px solid #000;
   color: #000;
-  font-size: 1rem;
+  font-size: 0.6rem;
   font-family: "TT-Norms";
   font-weight: 700;
   letter-spacing: 0.22rem;
@@ -21,10 +21,20 @@ export const Wrapper = styled.footer`
   
 
   ${media.greaterThan('small')`
+    font-size: 0.6rem;
+    font-family: "TT-Norms";
+    font-weight: 700;
+    letter-spacing: 0.22rem;
+    line-height: 1.16667;
     max-width: 650px;
   `}
 
   ${media.greaterThan('medium')`
+    font-size: 1rem;
+    font-family: "TT-Norms";
+    font-weight: 700;
+    letter-spacing: 0.22rem;
+    line-height: 1.16667;
     max-width: 1440px;
   `}
 `;

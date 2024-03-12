@@ -11,7 +11,7 @@ const Footer = () => (
         Desenvolvido por{' '}
         <a>Gustavo Ferreira Martins</a>
       </p>
-      <a href="https://github.com/GustavoFerMartins"><S.Logo src="./github.png" alt="Logo" /></a>
+      <a href="https://github.com/GustavoFerMartins" target="_blank"><S.Logo src="./github.png" alt="Logo" /></a>
     </Container>
   </S.Wrapper>
 )

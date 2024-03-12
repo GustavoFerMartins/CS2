@@ -1,0 +1,11 @@
+Model Information:
+* title:	CSGO AK-47 | Nightwish
+* source:	https://sketchfab.com/3d-models/csgo-ak-47-nightwish-fa14428d9e314265937a66f48e829a15
+* author:	elixsmax (https://sketchfab.com/elixsmax)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "CSGO AK-47 | Nightwish" (https://sketchfab.com/3d-models/csgo-ak-47-nightwish-fa14428d9e314265937a66f48e829a15) by elixsmax (https://sketchfab.com/elixsmax) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
