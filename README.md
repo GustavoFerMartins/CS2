@@ -14,8 +14,6 @@ Este proyecto está inspirado en el sitio web de csstats.gg y se centra en anali
 ## Back-end
 - Java
 - Spring Boot
-- JPA / Hibernate
-- Maven
 
 ## Front-end
 - HTML / CSS / JS / TypeScript
