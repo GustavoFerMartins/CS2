@@ -4,19 +4,21 @@ import media from "styled-media-query";
 export const CanvasWrapper = styled.div`
     position: relative;
     z-index: 1;
-    height: 250px;
-    width: 400px;
-    margin: 5rem 0;
+    height: 25vh;
+    width: 365px;
+    margin: 15vh 0;
 
     ${media.greaterThan("small")`
-        height: 300px;
-        width: 500px;
-        margin: 3rem 0;
+        margin: 10vh 0;
+        height: 35vh;
+        width: 600px;
+        
   `}
 
     ${media.greaterThan("medium")`
-        height: 500px;
-        width: 700px;
-        margin: 0rem 0;
+        margin: 0 0;
+        height: 55vh;
+        width: 1440px;
+       
   `}
 `;

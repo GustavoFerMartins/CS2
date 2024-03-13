@@ -18,6 +18,7 @@ const Header: React.FC = () => {
                         <S.Text>News</S.Text>
                         <S.Text>Players</S.Text>
                         <S.Text>Teams</S.Text>
+                        <S.Text>Skins</S.Text>
                     </S.NavTexts>
                     <S.Hamburger onClick={() => setIsMenuOpen(!isMenuOpen)}>
                         <span></span>

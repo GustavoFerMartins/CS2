@@ -42,7 +42,7 @@ function ThreeScene() {
         scene.add(directionalLight);
 
         camera.current = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
-        camera.current.position.z = 20;
+        camera.current.position.z = 18;
         controls.current = new OrbitControls(camera.current, renderer.current.domElement);
 
         const animate = () => {
